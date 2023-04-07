@@ -5,8 +5,51 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
+    margin: auto; /* 페이지 바깥 여백 */
+    padding: 0;
+    width: 428px; /* 추천 가로 크기 */
+    height: 926px; /* 추천 세로 크기 */
+    border: 1px solid black;
+
+    background-image: url("images/background.PNG");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
+img {
+    display: block; 
+    margin: 0 auto;
+    width: 50%; 
+    height: auto;
+}
+
+.image-container a:first-child img {
+    top: -100; /* 상단에 위치시킴 */
+  }
+
+
 button {
-    width: 200px;
+    width: 500px;
+    height: 100px;
+    font-size: 50px;
+}
+
+.profile {
+    margin-bottom: 120px;
+}
+
+/* .image_container{
+    display: flex;
+} */
+
+.gallery {
+    margin-bottom: 60px;
+
+}
+
+.T-log {
+    margin-bottom: 30px;
 }
